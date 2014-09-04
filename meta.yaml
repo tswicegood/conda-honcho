@@ -1,0 +1,18 @@
+package:
+  name: honcho
+  version: 0.5.0
+
+requirements:
+  build:
+    - python
+    - pip
+  run:
+    - python
+    - setuptools
+
+test:
+  commands:
+    - honcho --version
+
+about:
+  home: http://honcho.readthedocs.org/
